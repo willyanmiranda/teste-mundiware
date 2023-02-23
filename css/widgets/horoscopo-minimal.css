@@ -1,0 +1,114 @@
+.section-horoscopo-minimal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ob-horoscopo-minimal {
+    width: 384px;
+    height: 412px;
+    grid-column: span 4;
+    grid-row: span 4;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 42px
+}
+
+.ob-horoscopo-minimal.extended {
+    grid-column: 1/-1;
+    grid-row: span 1;
+    overflow: hidden;
+    gap: 20px;
+    padding: 25px 30px 30px
+}
+
+.ob-horoscopo-minimal.extended .content>a>img {
+    width: 40px;
+    height: 40px;
+}
+
+.ob-horoscopo-minimal.extended .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ob-horoscopo-minimal.extended header {
+    justify-content: space-between
+}
+
+.ob-horoscopo-minimal header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.ob-horoscopo-minimal header>a {
+    color: #231f20;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px
+}
+
+.ob-horoscopo-minimal header>span>img {
+    width: 100%;
+    max-width: 130px
+}
+
+.ob-horoscopo-minimal header h2 {
+    color: #231f20;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    line-height: 26px
+}
+
+.ob-horoscopo-minimal header h3 {
+    color: #726f73;
+    font-size: 10px;
+    font-family: pacaembu-medium;
+    line-height: 14px
+}
+
+.ob-horoscopo-minimal .content>a {
+    display: flex;
+    flex-direction: column;
+    color: #231f20;
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 14px;
+    align-items: center;
+    min-width: 40px
+}
+
+.ob-horoscopo-minimal .content>a:hover {
+    font-family: 'Inter', sans-serif;
+}
+
+.ob-horoscopo-minimal .content>a>img {
+    width: 100%;
+    max-width: 48px
+}
+
+.ob-horoscopo-minimal .content {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px;
+    height: 100%
+}
+
+@media(max-width: 500px) {
+    .section-horoscopo-minimal {
+        display: none;
+    }
+}

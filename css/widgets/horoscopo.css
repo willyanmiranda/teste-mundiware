@@ -1,0 +1,110 @@
+.section-horoscopo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ob-horoscopo {
+    width: 1230px;
+    grid-column: span 4;
+    grid-row: span 4;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 42px
+}
+
+.ob-horoscopo.extended {
+    grid-column: 1/-1;
+    grid-row: span 1;
+    overflow: hidden;
+    gap: 20px;
+    padding: 20px 30px 30px
+}
+
+.ob-horoscopo.extended .content>a>img {
+    max-width: 40px
+}
+
+.ob-horoscopo.extended .content {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.ob-horoscopo.extended header {
+    justify-content: space-between
+}
+
+.ob-horoscopo header {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.ob-horoscopo header>a {
+    color: #231f20;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px
+}
+
+.ob-horoscopo header>span>img {
+    width: 100%;
+    max-width: 130px
+}
+
+.ob-horoscopo header h2 {
+    color: #231f20;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    line-height: 26px
+}
+
+.ob-horoscopo header h3 {
+    color: #726f73;
+    font-size: 10px;
+    font-family: pacaembu-medium;
+    line-height: 14px
+}
+
+.ob-horoscopo .content>a {
+    display: flex;
+    flex-direction: column;
+    color: #231f20;
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: 14px;
+    align-items: center;
+    min-width: 40px
+}
+
+.ob-horoscopo .content>a:hover {
+    font-family: 'Inter', sans-serif;
+}
+
+.ob-horoscopo .content>a>img {
+    width: 100%;
+    max-width: 48px
+}
+
+.ob-horoscopo .content {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    height: 100%
+}
+
+@media(max-width: 500px) {
+    .section-horoscopo {
+        display: none;
+    }   
+}

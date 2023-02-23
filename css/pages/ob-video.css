@@ -1,0 +1,394 @@
+.box-videos {
+    display: flex;
+    gap: 24px
+}
+
+.destaqueVideo {
+    width: 50%;
+    height: 371px
+}
+
+.ob-tv {
+    width: 100%;
+    height: fit-content;
+    color: #fff;
+    padding-top: 30px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ff0a6b
+}
+
+.ob-tv .wrapper {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 44px
+}
+
+.ob-tv .wrapper header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.ob-tv .wrapper header .tv {
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+
+.ob-tv .wrapper header .tv>img {
+    width: 60px;
+    height: 65px;
+}
+
+.ob-tv .wrapper header .tv>h2 {
+    font-size: 22px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    color: #fff
+}
+
+.ob-tv .wrapper header .filter {
+    display: flex;
+    align-items: center;
+    gap: 45px
+}
+
+.ob-tv .wrapper header .filter label {
+    font-size: 13px;
+    line-height: 17px;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    font-family: 'Inter', sans-serif;
+    user-select: none
+}
+
+.ob-tv .wrapper header .filter label.active {
+    font-family: 'Inter', sans-serif;
+}
+
+.ob-tv .wrapper header .filter label.active::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    background-color: #fff;
+    width: 40%;
+    left: 0;
+    height: 4px;
+    border-radius: 20px
+}
+
+.ob-tv .wrapper header .filter label input {
+    display: none
+}
+
+.ob-tv .wrapper section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column
+}
+
+.ob-tv .wrapper section .splide__pagination {
+    opacity: 0
+}
+
+.ob-tv .wrapper section .relacionados {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px
+}
+
+.ob-tv .wrapper section .relacionados section .splide__pagination {
+    opacity: 1
+}
+
+.ob-tv .wrapper section .relacionados .splide__pagination .splide__pagination__page.is-active {
+    background-color: #fff;
+    transform: inherit
+}
+
+.ob-tv .wrapper section .relacionados .splide__pagination .splide__pagination__page {
+    background-color: transparent;
+    border: 2px solid #fff;
+    transition: .4s
+}
+
+.ob-tv .wrapper section .relacionados header h2 {
+    font-size: 16px;
+    font-family: pacaembu-bold;
+    text-transform: uppercase
+}
+
+.ob-tv .wrapper section .box-videos {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 24px
+}
+
+.ob-tv .wrapper section .splide__list {
+    width: 100%;
+    height: 100%
+}
+
+.ob-tv .wrapper section .splide__arrows {
+    opacity: 0;
+    visibility: 0
+}
+
+.ob-tv .wrapper section.desktop .splide__slide {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: minmax(69px,auto);
+    gap: 31px;
+    height: 100%
+}
+
+.ob-tv .wrapper section.destaque .splide__slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.ob-tv .wrapper section.destaque .orbiTV-video.destaque {
+    min-height: 224px;
+    grid-column: unset;
+    grid-row: unset
+}
+
+.ob-tv .wrapper section.mobile {
+    padding: 20px 0
+}
+
+.ob-tv .wrapper section.mobile>h3 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 38px 0 13px;
+    position: relative
+}
+
+.ob-tv .wrapper section.mobile>h3:after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 160px;
+    z-index: 2;
+    right: -1px;
+    top: 100%;
+    background: #000;
+    background: linear-gradient(91deg,rgba(0,0,0,0) 0%,#ff086b 100%)
+}
+
+.ob-tv .wrapper section.mobile .orbiTV-video {
+    width: 100%;
+    height: 100%
+}
+
+.ob-tv #lightboxVideo {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: #000000c7;
+    top: 0;
+    left: 0;
+    z-index: 20
+}
+
+.ob-tv #lightboxVideo .orbiPlayer {
+    max-width: 900px;
+    width: 100%;
+    height: 530px;
+    max-height: 630px
+}
+
+.ob-tv #lightboxVideo iframe {
+    max-width: 900px;
+    width: 100%;
+    height: 530px;
+    max-height: 630px
+}
+
+.ob-tv #lightboxVideo video {
+    border-radius: 15px
+}
+
+.ob-tv .wrapper section .orbiTV-video.destaque {
+    height: 224px
+}
+
+.ob-tv .wrapper section .orbiTV-video {
+    border-radius: 15px;
+    grid-row: span 2;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.ob-tv .wrapper section .orbiTV-video h2 {
+    color: #fafafa;
+    font-size: 18px;
+    line-height: 22px
+}
+
+.ob-tv .OrbiTVmobile {
+    width: 100%;
+    height: 160px
+}
+
+.ob-tv .OrbiTVmobile .splide__slide {
+    width: 231px;
+    height: 145px;
+    margin-right: 12px
+}
+
+.ob-tv .wrapper .desktop .splide__pagination {
+    bottom: 0
+}
+
+.play {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 50%
+}
+
+.ob-tv .wrapper section span {
+    grid-row: span 2;
+    grid-column: 1/-1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px
+}
+
+@media(max-width: 1205px) {
+    .ob-tv .wrapper {
+        width:100%;
+        padding: 0 20px
+    }
+}
+
+@media(max-width: 1024px) {
+    .ob-tv #lightboxVideo .orbiPlayer {
+        max-width:100%;
+        width: 100%;
+        height: 500px;
+        max-height: 630px;
+        padding: 20px
+    }
+
+    .ob-tv #lightboxVideo iframe {
+        max-width: 100%;
+        width: 100%;
+        height: 500px;
+        max-height: 630px;
+        padding: 20px
+    }
+
+    .ob-tv .wrapper header {
+        flex-direction: column;
+        align-items: start;
+        gap: 20px
+    }
+
+    .ob-tv .wrapper header .filter {
+        gap: 15px;
+        width: 100%;
+        overflow-y: scroll;
+        justify-content: space-between
+    }
+
+    .ob-tv .wrapper header .filter label {
+        white-space: nowrap;
+        padding-bottom: 15px
+    }
+
+    .ob-tv .wrapper header .filter label.active::after {
+        bottom: 0
+    }
+
+    .ob-tv .wrapper section .orbiTV-video h2 {
+        color: #fafafa;
+        font-size: 14px;
+        line-height: 18px
+    }
+}
+
+@media(max-width: 750px) {
+    .ob-tv .wrapper section.desktop .orbiTV-video h2 {
+        color:#fafafa;
+        font-size: 14px;
+        line-height: 16px
+    }
+
+    .ob-tv .wrapper section .box-videos {
+        flex-direction: column
+    }
+
+    .ob-tv .wrapper section .relacionados {
+        width: 100%
+    }
+
+    .destaqueVideo {
+        width: 100%;
+        height: 371px
+    }
+}
+
+@media(max-width: 700px) {
+    .ob-tv .wrapper section.desktop .splide__slide {
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-auto-rows: minmax(73px,auto);
+        gap: 24px;
+        height: 100%
+    }
+
+    .ob-tv #lightboxVideo .orbiPlayer {
+        max-width: 85%;
+        width: fit-content;
+        height: fit-content;
+        max-height: 280px;
+        object-fit: fill
+    }
+}
+
+@media(max-width: 550px) {
+    .ob-tv .wrapper section.desktop .splide__slide {
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-auto-rows: minmax(73px,auto);
+        gap: 24px;
+        height: 100%
+    }
+
+    .ob-tv .wrapper section.desktop .orbiTV-video:nth-of-type(1) {
+        grid-row: span 2;
+        grid-column: span 2;
+        padding: 15px
+    }
+
+    .ob-tv .wrapper section .orbiTV-video {
+        grid-column: span 2
+    }
+}

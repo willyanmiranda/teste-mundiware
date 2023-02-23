@@ -1,0 +1,58 @@
+.enquete {
+    width: 384px;
+    height: 412px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+}
+
+.enquete h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ff0a6b;
+    margin-bottom: 20px;
+}
+
+.enquete h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding-right: 40px;
+    margin-bottom: 40px;
+}
+
+.enquete input {
+    margin-bottom: 35px;
+}
+
+.enquete input {
+    accent-color: #ff0a6b;
+}
+
+.enquete label {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.enquete button {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #ff0a6b;
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+@media(max-width: 500px) {
+    .section-enquete {
+        display: none;
+    } 
+}

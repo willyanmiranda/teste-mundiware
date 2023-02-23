@@ -1,0 +1,115 @@
+.headline {
+    margin-top: 25px;
+}
+
+.headline-article {
+    grid-column: span 8;
+    grid-row: span 4;
+    background-color: #ccc;
+    border-radius: 15px
+}
+
+.headline-subtitles {
+    display: flex;
+    padding-left: 105px;
+    margin-bottom: 30px;
+}
+
+.headline-subtitle-box {
+    width: 270px;
+    height: 50px;
+    margin-left: 40px;
+}
+
+.headline-subtitle-box span {
+    display: flex;
+    flex-direction: column;
+    color: #ff0a6b;
+    font-size: 10px;
+    padding-left: 10px;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.headline-subtitle-box p {
+    color: #fafafa;
+    font-size: 14px;
+    padding-left: 10px;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.headline-carrosel {
+    width: 100%;
+    height: 100%
+}
+
+.headline-carrosel .headline-container {
+    height: 100%
+}
+
+.headline-carrosel .headline-item {
+    height: 520px;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient( transparent , rgb(0 0 0 / 60%)), url("../../assets/img/copa.jpg");
+}
+
+.headline-carrosel .headline-item>a {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: end;
+    color: #fff;
+    cursor: pointer
+}
+
+.headline-carrosel .headline-item .wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 160px 15px 150px;
+}
+
+.headline-carrosel .headline-item>a .headline-carrosel-box {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px 25px;
+    margin-left: 130px;
+    gap: 12px
+}
+
+.headline-carrosel .headline-item>a .headline-carrosel-box>h2 {
+    color: #fafafa;
+    font-size: 44px;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+@media(max-width: 500px) {
+    .headline-carrosel .headline-item .wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .headline-carrosel .headline-item>a .headline-carrosel-box {
+        padding: 20px;
+        margin: 0;
+    }
+
+    .headline-carrosel .headline-item>a .headline-carrosel-box>h2 {
+        font-size: 30px;
+    }
+
+    .headline-subtitles {
+        display: none;
+    }
+}

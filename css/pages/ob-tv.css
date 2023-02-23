@@ -1,0 +1,133 @@
+.ob-tv-section {
+    padding: 0;
+}
+
+.ob-tv-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+}
+
+.ob-tv-videos-container {
+    display: flex;
+    gap: 50px;
+}
+
+.ob-tv-videos {
+    margin: 10px 150px 40px 150px;
+}
+
+.video-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.video-content h1 {
+    margin-top: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+}
+
+.video-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-img .thumb-video {
+    border-radius: 20px;
+}
+
+.play-tv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: #ff0a6b;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.ob-tv-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 150px 20px 150px;
+}
+
+.ob-tv-btns {
+    display: flex;
+    gap: 30px;
+}
+
+.ob-tv-btns .btn-videos {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    background-color: #ff0a6b;
+    border-radius: 20px;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.ob-tv-btns .btn-shorts {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid #726F73;
+    color: #726F73;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.ob-tv-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 150px 20px 150px;
+}
+
+.ob-tv-footer span {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+@media(max-width: 500px) {
+    #video-content-1 {
+        display: none;
+    }
+    #video-content-2 {
+        display: none;
+    }
+
+    .ob-tv-header {
+        margin: 25px 20px 20px 20px;
+    }
+
+    .ob-tv-videos {
+        margin: 25px 20px 20px 20px;
+    }
+
+    .ob-tv-footer {
+        margin: 25px 20px 20px 20px;
+    }
+
+    .video-content {
+        width: 100%;
+    }
+
+    .thumb-video {
+        width: 100%;
+    }
+
+    .ob-tv-btns {
+        gap: 15px;
+    }
+}

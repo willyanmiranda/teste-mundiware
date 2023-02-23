@@ -1,0 +1,12 @@
+<svg width="64" height="51" viewBox="0 0 64 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="16.5542" y1="37.4594" x2="16.5542" y2="40.6664" stroke="#FFA500" stroke-width="2" stroke-linecap="round"/>
+<line x1="5.78369" y1="32.8831" x2="5.78369" y2="36.0901" stroke="#FFA500" stroke-width="2" stroke-linecap="round"/>
+<line x1="1.20703" y1="21.8334" x2="1.20703" y2="25.0404" stroke="#FFA500" stroke-width="2" stroke-linecap="round"/>
+<line x1="5.78369" y1="10.7819" x2="5.78369" y2="13.9889" stroke="#FFA500" stroke-width="2" stroke-linecap="round"/>
+<line x1="14.5542" y1="4.20703" x2="14.5542" y2="0.999966" stroke="#FFA500" stroke-width="2" stroke-linecap="round"/>
+<line x1="27.4297" y1="10.7819" x2="27.4297" y2="13.9889" stroke="#FFA500" stroke-width="2" stroke-linecap="round"/>
+<line x1="31.9307" y1="21.8334" x2="31.9307" y2="25.0404" stroke="#FFA500" stroke-width="2" stroke-linecap="round"/>
+<line x1="27.4297" y1="32.8831" x2="27.4297" y2="36.0901" stroke="#FFA500" stroke-width="2" stroke-linecap="round"/>
+<circle cx="15.6145" cy="20.8329" r="8.67844" fill="#FFA500" stroke="#FFA500" stroke-width="2"/>
+<path d="M62.9999 35.4202C63.0124 31.6416 61.5169 28.0142 58.8451 25.3424C56.1732 22.6705 52.5458 21.175 48.7673 21.1875C47.1106 21.2075 45.4686 21.5007 43.9074 22.0554C43.4766 15.8296 38.1808 11.0705 31.9446 11.3049C25.7084 11.5394 20.7848 16.6827 20.8227 22.9232C20.8698 24.2795 21.1035 25.6228 21.517 26.9153C20.9502 26.7718 20.3653 26.7133 19.7813 26.7417C13.3587 26.6459 8.07447 31.7747 7.97862 38.1973C7.88275 44.6199 13.0116 49.9041 19.4342 50L49.288 49.9999C56.9065 49.3449 62.8131 43.0645 62.9999 35.4202Z" fill="#57A0EE" stroke="white" stroke-width="2"/>
+</svg>

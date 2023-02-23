@@ -1,0 +1,125 @@
+.ob-footer {
+    background-color: #e9e9e9;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition: .5s
+}
+
+.ob-footer .ob-wrapper {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 0 85px;
+    gap: 45px
+}
+
+.ob-footer .ob-wrapper>img {
+    width: 200px;
+    height: 40px
+}
+
+.ob-footer .social {
+    display: flex;
+    gap: 20px
+}
+
+.ob-footer .social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 1px solid #ff0a6b;
+    transition: .5s
+}
+
+.ob-footer .social a:hover {
+    background-color: #ff0a6b;
+    border: 1px solid #ff0a6b
+}
+
+.ob-footer .social a:hover img {
+    filter: brightness(45);
+    animation: scaleFooter .3s
+}
+
+.ob-footer .social a>img {
+    width: 18px;
+    height: 18px
+}
+
+@keyframes scaleFooter {
+    0% {
+        transform: scale(.98)
+    }
+
+    50% {
+        transform: scale(.15)
+    }
+
+    100% {
+        transform: scale(1)
+    }
+}
+
+.ob-footer .ob-wrapper>ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between
+}
+
+.ob-footer .ob-wrapper>ul li {
+    font-size: 13px;
+    cursor: pointer;
+    line-height: 17px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #231f20;
+    transition: .5s ease-in-out;
+    background-size: 0!important;
+    background: linear-gradient(90deg,rgba(2,0,36,1) 0%,#ff0a6b 0%);
+    background-repeat: no-repeat
+}
+
+.ob-footer .ob-wrapper>ul li:hover {
+    background-size: 100%!important;
+    color: #fff;
+    font-weight: 700
+}
+
+@media(max-width: 1205px) {
+    .ob-footer {
+        padding:0 20px
+    }
+
+    .ob-footer .ob-wrapper {
+        width: 100%
+    }
+}
+
+@media(max-width: 930px) {
+    .ob-footer .ob-wrapper>ul li {
+        padding:5px
+    }
+}
+
+@media(max-width: 900px) {
+    .ob-footer .ob-wrapper>ul {
+        display:flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        gap: 18px
+    }
+}
+
+@media(max-width: 780px) {
+    .ob-footer .ob-wrapper {
+        padding:40px 0;
+        gap: 45px
+    }
+}

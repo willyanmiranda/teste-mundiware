@@ -1,0 +1,142 @@
+.section-web-stories {
+    background-color: white;
+    width: 384px;
+    height: 412px;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.web-stories {
+    grid-column: span 4;
+    grid-row: span 6;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.web-stories header a {
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+
+.web-stories header a>img {
+    width: 60px;
+    height: 65px;
+}
+
+.web-stories header a>h2 {
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    color: #231f20
+}
+
+.web-stories .colunas {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    min-height: 100%
+}
+
+.colunasSplide {
+    width: 100%;
+    height: 100%
+}
+
+.web-stories .colunasSplideMobile {
+    display: none!important;
+    padding-bottom: 40px
+}
+
+.web-stories .colunasSplideMobile .splide__pagination {
+    bottom: 0
+}
+
+.web-stories .colunasSplideMobile .colunas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.web-stories .colunas .box {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    width: 360px;
+}
+
+.web-stories .colunas .box img {
+    width: 85px;
+    height: 85px;
+    object-fit: cover;
+    border-radius: 50%
+}
+
+.web-stories .colunas .box .img-border {
+    border: 2px solid #ff0a6b;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.web-stories .colunas .box .info {
+    display: flex;
+    flex-direction: column;
+    padding-right: 60px;
+}
+
+.web-stories .colunas .box .info h2 {
+    color: #231f20;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 18px
+}
+
+.web-stories .colunas .box .info h3 {
+    color: #231f20;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px
+}
+
+.web-stories .colunas .box .info a {
+    color: #231f20;
+    font-size: 14px;
+    line-height: 18px
+}
+
+.stories-mobile {
+    display: none;
+}
+
+.stories {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.stories-mobile .stories .box .img-border {
+    display: flex;
+    border: 2px solid #ff0a6b;
+    border-radius: 50%;
+    padding: 3px;
+    object-fit: cover;
+}
+
+.stories-mobile .stories .box .img-border img {
+    object-fit: cover;
+    border-radius: 50%
+}
+
+@media(max-width: 500px) {
+    .section-web-stories {
+        display: none;
+    }
+
+    .stories-mobile {
+        display: block;
+    }
+}

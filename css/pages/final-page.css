@@ -1,0 +1,22 @@
+.final-page {
+    margin-bottom: 24px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 20px;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+@media(max-width: 500px) {
+    .final-page {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .row {
+        flex-direction: column;
+    }
+}

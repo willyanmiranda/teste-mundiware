@@ -1,0 +1,89 @@
+.jornal-digital {
+    width: 384px;
+    height: 412px;
+    margin-left: 20px;
+    margin-right: 35px;
+}
+
+.ob-capaDoJornal {
+    grid-column: span 4;
+    grid-row: span 4;
+    background: #594696;
+    background: linear-gradient(89deg,rgba(89,70,150,1) 0%,rgba(241,14,109,1) 100%);
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    transition: all 1s ease-in;
+    max-height: 412px;
+    align-items: center;
+    gap: 40px
+}
+
+.ob-capaDoJornal:hover {
+    background: #594696;
+    background: linear-gradient(269deg,rgba(89,70,150,1) 0%,rgba(241,14,109,1) 100%)
+}
+
+.ob-capaDoJornal>img:first-of-type {
+    width: 130px;
+    position: inherit;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.ob-capaDoJornal>img:nth-child(2) {
+    height: 281px;
+    width: 100%;
+    max-width: 243px;
+    position: inherit;
+    z-index: 1
+}
+
+.ob-capaDoJornal .cicle-pink {
+    background-color: transparent;
+    width: 190px;
+    height: 190px;
+    position: absolute;
+    left: -60px;
+    bottom: -30px;
+    border-radius: 50%;
+    border: 1px solid #c11d75
+}
+
+.ob-capaDoJornal .cicle-blue {
+    background-color: transparent;
+    width: 190px;
+    height: 190px;
+    position: absolute;
+    right: -60px;
+    top: -80px;
+    border-radius: 50%;
+    border: 1px solid #a12d84
+}
+
+.ob-capaDoJornal>h2 {
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 20px;
+    font-weight: 800;
+    color: #fff;
+    z-index: 2
+}
+
+@media(max-width: 500px) {
+    .jornal-digital {
+        width: 100%;
+        margin: 0;
+    }
+
+    .cicle-blue {
+        display: none;
+    }
+
+    .cicle-pink {
+        display: none;
+    }
+}

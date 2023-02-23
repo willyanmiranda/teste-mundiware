@@ -1,0 +1,125 @@
+.ob-charges {
+    grid-column: span 4;
+    grid-row: span 4;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: #F3F3F3;
+    padding: 30px 25px 25px;
+    width: 384px;
+    height: 412px;
+}
+
+.ob-charges header {
+    display: flex;
+    gap: 20px;
+    align-items: center
+}
+
+.ob-charges header>h2 {
+    color: #231f20;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.ob-charges header>img {
+    width: 45px
+}
+
+.ob-charges .chargesSplide {
+    height: 100%
+}
+
+.ob-charges .quadrinhos {
+    height: 100%
+}
+
+.ob-charges .splide__track {
+    width: 100%!important;
+    height: 100%
+}
+
+.ob-charges .splide__slide {
+    width: 100%!important;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.ob-charges .splide__slide h2 {
+    color: #231f20;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px
+}
+
+.ob-charges .splide__slide h3 {
+    color: #726F73;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px
+}
+
+.ob-charges .imgcharges {
+    width: 325px;
+    height: 219px;
+    border-radius: 15px;
+    object-fit: cover;
+    cursor: pointer;
+    max-height: 251px;
+    margin-bottom: 18px
+}
+
+
+
+.ob-charges .splide__pagination {
+    visibility: hidden
+}
+
+.charge-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.charge-footer span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.charge-footer .charge-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width: 1024px) {
+    .ob-charges {
+        grid-row:span 5
+    }
+}
+
+@media(max-width: 700px) {
+    .ob-charges {
+        grid-row:span 3
+    }
+}
+
+@media(max-width: 500px) {
+   .ob-charges {
+    display: none;
+   }  
+}

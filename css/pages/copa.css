@@ -1,0 +1,130 @@
+.copa-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.copa-container {
+    display: flex;
+    margin-top: 25px;
+    gap: 30px;
+}
+
+.copa-content {
+    grid-column: span 4;
+    grid-row: span 4;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 282px;
+    height: 274px;
+}
+
+.copa-content.extended {
+    grid-column: span 6!important;
+    grid-row: span 6!important
+}
+
+.copa-content>img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1
+}
+
+.copa-content:hover>img {
+    width: 110%;
+    height: 110%
+}
+
+.copa-content>a {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    position: initial;
+    z-index: 2
+}
+
+.copa-content .wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    position: initial;
+    z-index: 5
+}
+
+.copa-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.copa-content .copa-footer>h2 {
+    color: #fafafa;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.copa-content.extended .copa-footer>h2 {
+    font-size: 36px;
+    line-height: 40px
+}
+
+@media(max-width: 1024px) {
+    .copa-content.extended {
+        grid-column:span 8!important;
+        grid-row: span 5!important
+    }
+}
+
+@media(max-width: 700px) {
+    .headline-article {
+        grid-column:span 4;
+        grid-row: span 3
+    }
+
+    .mancheteCarrossel .splide__slide>a .mancheteCarrossel-box>h2 {
+        color: #fafafa;
+        font-size: 18px;
+        line-height: 22px
+    }
+
+    .ob-chamadaBoxAlta {
+        grid-row:span 2
+    }
+
+    .ob-chamadaBoxAlta .wrapper .share {
+        display: none
+    }
+
+    .ob-chamadaBoxAlta .chapeu-point {
+        display: none!important
+    }
+
+    .ob-chamadaBoxAlta.extended {
+        grid-column: span 4!important;
+        grid-row: span 4!important
+    }
+}
+
+@media(max-width: 500px) {
+  #copa-content-1 {
+    display: none;
+  }   
+  #copa-content-2 {
+    display: none;
+  }   
+  #copa-content-3 {
+    display: none;
+  }   
+}

@@ -1,0 +1,20 @@
+.section-cultura {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 24px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 20px;
+}
+
+.cultura-container {
+    display: flex;
+    margin-top: 15px;
+    gap: 30px;
+}
+
+@media(max-width: 500px) {
+    .section-cultura {
+        display: none;
+    }   
+}

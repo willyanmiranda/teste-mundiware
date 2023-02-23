@@ -1,0 +1,282 @@
+.mw-area-2 {
+    display: flex;
+    margin-bottom: 24px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 20px;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-text {
+    text-align: left;
+    width: 180px;
+    margin-bottom: 13px;
+}
+
+.container-img {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.content-img {
+    margin-bottom: 10px;
+    width: 384px;
+}
+
+.container-several {
+    margin-right: 40px;
+}
+
+.ob-chamadaPadrao>a {
+    display: flex;
+    gap: 12px;
+    width: 100%
+}
+
+.ob-chamadaPadrao>a>img {
+    border-radius: 15px;
+    object-fit: cover;
+    width: 100px;
+    height: 85px
+}
+
+.ob-chamadaPadrao .chamadaPadrao-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    padding-top: 8px
+}
+
+.ob-chamadaPadrao .chamadaPadrao-box h3:first-of-type {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #ff086b;
+    font-size: 10px;
+    line-height: 16px;
+    margin-bottom: 8px
+}
+
+.ob-chamadaPadrao .chamadaPadrao-box h2 {
+    color: #231f20;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+}
+
+.ob-chamadaPadrao .chamadaPadrao-box h3 {
+    font-family: pacaembu-medium;
+    color: #726f73;
+    font-size: 18px;
+    line-height: 22px
+}
+
+.ob-loterias {
+    grid-column: span 6;
+    grid-row: span 2;
+    background: #fff;
+    border-radius: 15px;
+    width: 384px;
+    margin-bottom: 25px;
+}
+
+.ob-loterias .loterias {
+    width: 100%;
+    height: 100%
+}
+
+.ob-loterias .loterias .splide__track {
+    height: 100%;
+    width: 100%
+}
+
+.ob-loterias .loterias .splide__list {
+    height: 100%;
+    width: 100%
+}
+
+.ob-loterias .loterias .splide__slide {
+    width: 100%;
+    height: 100%;
+    padding: 15px!important;
+    display: flex;
+    flex-direction: column;
+    gap: 24px
+}
+
+.ob-loterias .loterias .splide__slide header {
+    display: flex;
+    flex-direction: column;
+    gap: 3px
+}
+
+.ob-loterias .loterias .splide__slide header h2 {
+    color: #231f20;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700
+}
+
+.ob-loterias .loterias .splide__slide header h3 {
+    color: #726f73;
+    font-size: 10px;
+    font-family: pacaembu-medium;
+    line-height: 14px
+}
+
+.ob-loterias .loterias .splide__slide .result {
+    display: flex;
+    gap: 6px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.ob-loterias .loterias .splide__pagination {
+    gap: 5px
+}
+
+.ob-loterias .loterias .splide__pagination__page {
+    width: 6px;
+    height: 6px;
+    background-color: transparent;
+    border: 1px solid #c4c4c4
+}
+
+.ob-loterias .loterias .splide__slide .result span {
+    font-size: 14px;
+    line-height: 19px;
+    color: #fff;
+    width: 30px;
+    border-radius: 50%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.ob-loterias .loterias .splide__pagination li:nth-child(1) button.is-active {
+    background: #f6650c;
+    transform: scale(1);
+    border: #f6650c
+}
+
+.ob-loterias .loterias .splide__pagination li:nth-child(2) button.is-active {
+    background: #45ba7d!important;
+    transform: scale(1);
+    border: #45ba7d
+}
+
+.ob-loterias .loterias .splide__pagination li:nth-child(3) button.is-active {
+    background: #ff92ff!important;
+    transform: scale(1);
+    border: #ff92ff
+}
+
+.ob-loterias .loterias .splide__arrows {
+    display: none
+}
+
+.ob-previsaoDoTempo {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    grid-column: span 4;
+    justify-content: space-between;
+    align-items: center;
+    display: flex
+}
+
+.ob-previsaoDoTempo>img {
+    max-width: 60px;
+    width: 100%;
+    height: 54px;
+    margin: 0 10px -10px auto
+}
+
+.ob-previsaoDoTempo header {
+    display: flex;
+    flex-direction: column;
+    gap: 4px
+}
+
+.ob-previsaoDoTempo header h2 {
+    color: #231f20;
+    font-size: 15px;
+    line-height: 19px;
+    font-weight: 700
+}
+
+.ob-previsaoDoTempo header h3 {
+    color: #726f73;
+    font-size: 10px;
+    font-family: pacaembu-medium;
+    line-height: 14px
+}
+
+.ob-previsaoDoTempo .info {
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px
+}
+
+.ob-previsaoDoTempo .info span {
+    color: #d6b016;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize
+}
+
+.ob-previsaoDoTempo .info h2 {
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin: -5px 0 -15px;
+    color: #231f20
+}
+
+@media(max-width: 500px) {
+    .container-text {
+        display: none;
+    }
+
+    .container-several {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0;
+    }
+
+    .mw-area-2 {
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #section-container-img {
+        display: none;
+    }
+
+    .ob-chamadaPadrao {
+        width: 100%;
+    }
+
+    .ob-loterias {
+        width: 100%;
+    }
+}
