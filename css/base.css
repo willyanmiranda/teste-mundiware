@@ -118,7 +118,7 @@ a,a:visited,a:hover,a:active {
     gap: 5px;
     text-transform: capitalize;
     padding: 5px 10px;
-    border: 1px solid #ff0a6b;
+    border: 1px solid #da1462;
     width: fit-content;
     border-radius: 40px;
     font-size: 11px;
@@ -224,38 +224,6 @@ a,a:visited,a:hover,a:active {
     overflow: hidden
 }
 
-.mw-shadow1 {
-    box-shadow: rgba(0,0,0,.18) 0 2px 4px
-}
-
-.mw-shadow2 {
-    box-shadow: rgba(9,30,66,.25) 0 4px 8px -2px,rgba(9,30,66,.08) 0 0 0 1px
-}
-
-.mw-shadow3 {
-    box-shadow: 0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23)
-}
-
-.mw-shadow4 {
-    -webkit-box-shadow: 0 0 7px 6px rgb(137 137 137/4%);
-    box-shadow: 0 0 7px 6px rgb(137 137 137/20%)
-}
-
-.mw-shadow5 {
-    -webkit-box-shadow: 0 0 7px 6px rgb(137 137 137/4%);
-    box-shadow: 0 0 6px 2px rgb(137 137 137/14%)
-}
-
-.mw-shadow6 {
-    -webkit-box-shadow: inset -3px -50px 11px -2px rgb(0 0 0/39%);
-    box-shadow: inset -3px -384px 1px -2px rgb(0 0 0/39%)
-}
-
-.mw-shadow7 {
-    -webkit-box-shadow: inset -1px -12px 29px 20px rgb(0 0 0/70%);
-    box-shadow: inset -1px -12px 29px 20px rgb(0 0 0/70%)
-}
-
 .mw-area {
     display: grid;
     grid-template-columns: repeat(12,1fr);
@@ -273,7 +241,7 @@ a,a:visited,a:hover,a:active {
     display: flex;
     gap: 10px;
     align-items: center;
-    background-color: #ff0a6b;
+    background-color: #da1462;
     border-radius: 20px;
     position: relative;
     font-family: 'Inter', sans-serif;
@@ -283,7 +251,7 @@ a,a:visited,a:hover,a:active {
     font-family: 'Inter', sans-serif;
     font-size: 10px;
     line-height: 14px;
-    color: #fafafa;
+    color: #ffffff;
     cursor: pointer;
     -webkit-user-select: none;
     -ms-user-select: none;
