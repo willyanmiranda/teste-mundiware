@@ -1,5 +1,7 @@
-.mw-area-2 {
+.several-section {
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 24px;
     padding-left: 150px;
     padding-right: 150px;
@@ -27,6 +29,7 @@
 .content-img {
     margin-bottom: 10px;
     width: 384px;
+    padding-right: 20px;
 }
 
 .container-several {
@@ -261,7 +264,7 @@
         margin: 0;
     }
 
-    .mw-area-2 {
+    .several-section {
         padding-left: 0;
         padding-right: 0;
         display: flex;

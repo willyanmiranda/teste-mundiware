@@ -1,5 +1,6 @@
 .section-colunas {
     display: flex;
+    justify-content: center;
     margin-bottom: 24px;
     padding-left: 150px;
     padding-right: 150px;

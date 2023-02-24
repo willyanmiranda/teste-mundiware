@@ -1,4 +1,8 @@
 .final-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 24px;
     padding-left: 150px;
     padding-right: 150px;
@@ -18,5 +22,6 @@
     
     .row {
         flex-direction: column;
+        width: 100%;
     }
 }

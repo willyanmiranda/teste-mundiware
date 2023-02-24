@@ -113,3 +113,10 @@
         display: none;
     }
 }
+
+@media(min-width: 2000px) {
+    .headline {
+        display: flex;
+        justify-content: center;
+    }
+}
